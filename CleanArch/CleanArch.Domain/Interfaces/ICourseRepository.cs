@@ -12,5 +12,6 @@ namespace CleanArch.Domain.Interfaces
         IQueryable<Course> GetCourses();
 
         void Add(Course course);
+
     }
 }
